@@ -1,9 +1,9 @@
 spring:
     datasource:
-        name: dev
-        url: jdbc:mysql:loadbalance://192.168.15.162:3306,192.168.15.163:3306/zppo_dev?roundRobinLoadBalance=true&useUnicode=true&characterEncoding=UTF8        
-        username: dev
-        password: devpassword
+        name: test
+        url: jdbc:mysql:loadbalance://192.168.15.162:3306,192.168.15.163:3306/zppo_test?roundRobinLoadBalance=true&useUnicode=true&characterEncoding=UTF8        
+        username: test
+        password: testpassword
         # 使用druid数据源
         type: com.alibaba.druid.pool.DruidDataSource
         driver-class-name: com.mysql.jdbc.Driver
